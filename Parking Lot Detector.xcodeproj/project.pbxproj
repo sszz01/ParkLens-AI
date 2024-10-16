@@ -3,19 +3,8 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
-
-/* Begin PBXBuildFile section */
-		C89337362C4F579D00F7AEA2 /* Parking_Lot_DetectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89337352C4F579D00F7AEA2 /* Parking_Lot_DetectorApp.swift */; };
-		C89337382C4F579D00F7AEA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89337372C4F579D00F7AEA2 /* ContentView.swift */; };
-		C893373A2C4F579D00F7AEA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89337392C4F579D00F7AEA2 /* Assets.xcassets */; };
-		C893373D2C4F579D00F7AEA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C893373C2C4F579D00F7AEA2 /* Preview Assets.xcassets */; };
-		C89337472C4F579D00F7AEA2 /* Parking_Lot_DetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89337462C4F579D00F7AEA2 /* Parking_Lot_DetectorTests.swift */; };
-		C89337512C4F579D00F7AEA2 /* Parking_Lot_DetectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89337502C4F579D00F7AEA2 /* Parking_Lot_DetectorUITests.swift */; };
-		C89337532C4F579D00F7AEA2 /* Parking_Lot_DetectorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89337522C4F579D00F7AEA2 /* Parking_Lot_DetectorUITestsLaunchTests.swift */; };
-		C89337602C4F589F00F7AEA2 /* MediaPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C893375F2C4F589F00F7AEA2 /* MediaPicker.swift */; };
-/* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		C89337432C4F579D00F7AEA2 /* PBXContainerItemProxy */ = {
@@ -36,17 +25,42 @@
 
 /* Begin PBXFileReference section */
 		C89337322C4F579D00F7AEA2 /* Parking Lot Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Parking Lot Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C89337352C4F579D00F7AEA2 /* Parking_Lot_DetectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking_Lot_DetectorApp.swift; sourceTree = "<group>"; };
-		C89337372C4F579D00F7AEA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C89337392C4F579D00F7AEA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C893373C2C4F579D00F7AEA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C89337422C4F579D00F7AEA2 /* Parking Lot DetectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parking Lot DetectorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C89337462C4F579D00F7AEA2 /* Parking_Lot_DetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking_Lot_DetectorTests.swift; sourceTree = "<group>"; };
 		C893374C2C4F579D00F7AEA2 /* Parking Lot DetectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parking Lot DetectorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C89337502C4F579D00F7AEA2 /* Parking_Lot_DetectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking_Lot_DetectorUITests.swift; sourceTree = "<group>"; };
-		C89337522C4F579D00F7AEA2 /* Parking_Lot_DetectorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parking_Lot_DetectorUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C893375F2C4F589F00F7AEA2 /* MediaPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C807A28F2CC027E100BD73DE /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Parking Lot Detector/Assets.xcassets",
+				"Parking Lot Detector/ContentView.swift",
+				"Parking Lot Detector/MediaPicker.swift",
+				"Parking Lot Detector/Parking_Lot_DetectorApp.swift",
+				"Parking Lot Detector/Preview Content/Preview Assets.xcassets",
+			);
+			target = C89337312C4F579D00F7AEA2 /* Parking Lot Detector */;
+		};
+		C807A2902CC027E100BD73DE /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Parking Lot DetectorTests/Parking_Lot_DetectorTests.swift",
+			);
+			target = C89337412C4F579D00F7AEA2 /* Parking Lot DetectorTests */;
+		};
+		C807A2912CC027E100BD73DE /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Parking Lot DetectorUITests/Parking_Lot_DetectorUITests.swift",
+				"Parking Lot DetectorUITests/Parking_Lot_DetectorUITestsLaunchTests.swift",
+			);
+			target = C893374B2C4F579D00F7AEA2 /* Parking Lot DetectorUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C807A27A2CC027C900BD73DE /* ParkLensAI Prototype */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (C807A28F2CC027E100BD73DE /* PBXFileSystemSynchronizedBuildFileExceptionSet */, C807A2902CC027E100BD73DE /* PBXFileSystemSynchronizedBuildFileExceptionSet */, C807A2912CC027E100BD73DE /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = "ParkLensAI Prototype"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C893372F2C4F579D00F7AEA2 /* Frameworks */ = {
@@ -76,9 +90,7 @@
 		C89337292C4F579D00F7AEA2 = {
 			isa = PBXGroup;
 			children = (
-				C89337342C4F579D00F7AEA2 /* Parking Lot Detector */,
-				C89337452C4F579D00F7AEA2 /* Parking Lot DetectorTests */,
-				C893374F2C4F579D00F7AEA2 /* Parking Lot DetectorUITests */,
+				C807A27A2CC027C900BD73DE /* ParkLensAI Prototype */,
 				C89337332C4F579D00F7AEA2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,43 +103,6 @@
 				C893374C2C4F579D00F7AEA2 /* Parking Lot DetectorUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C89337342C4F579D00F7AEA2 /* Parking Lot Detector */ = {
-			isa = PBXGroup;
-			children = (
-				C89337352C4F579D00F7AEA2 /* Parking_Lot_DetectorApp.swift */,
-				C893375F2C4F589F00F7AEA2 /* MediaPicker.swift */,
-				C89337372C4F579D00F7AEA2 /* ContentView.swift */,
-				C89337392C4F579D00F7AEA2 /* Assets.xcassets */,
-				C893373B2C4F579D00F7AEA2 /* Preview Content */,
-			);
-			path = "Parking Lot Detector";
-			sourceTree = "<group>";
-		};
-		C893373B2C4F579D00F7AEA2 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				C893373C2C4F579D00F7AEA2 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		C89337452C4F579D00F7AEA2 /* Parking Lot DetectorTests */ = {
-			isa = PBXGroup;
-			children = (
-				C89337462C4F579D00F7AEA2 /* Parking_Lot_DetectorTests.swift */,
-			);
-			path = "Parking Lot DetectorTests";
-			sourceTree = "<group>";
-		};
-		C893374F2C4F579D00F7AEA2 /* Parking Lot DetectorUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C89337502C4F579D00F7AEA2 /* Parking_Lot_DetectorUITests.swift */,
-				C89337522C4F579D00F7AEA2 /* Parking_Lot_DetectorUITestsLaunchTests.swift */,
-			);
-			path = "Parking Lot DetectorUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +169,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					C89337312C4F579D00F7AEA2 = {
 						CreatedOnToolsVersion = 15.4;
@@ -234,8 +209,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C893373D2C4F579D00F7AEA2 /* Preview Assets.xcassets in Resources */,
-				C893373A2C4F579D00F7AEA2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +233,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C89337382C4F579D00F7AEA2 /* ContentView.swift in Sources */,
-				C89337602C4F589F00F7AEA2 /* MediaPicker.swift in Sources */,
-				C89337362C4F579D00F7AEA2 /* Parking_Lot_DetectorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +240,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C89337472C4F579D00F7AEA2 /* Parking_Lot_DetectorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C89337512C4F579D00F7AEA2 /* Parking_Lot_DetectorUITests.swift in Sources */,
-				C89337532C4F579D00F7AEA2 /* Parking_Lot_DetectorUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +392,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Parking Lot Detector/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ParkLensAI Prototype/Parking Lot Detector/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -453,7 +420,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Parking Lot Detector/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ParkLensAI Prototype/Parking Lot Detector/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -477,7 +444,6 @@
 		C893375A2C4F579D00F7AEA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -496,7 +462,6 @@
 		C893375B2C4F579D00F7AEA2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -515,7 +480,6 @@
 		C893375D2C4F579D00F7AEA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -532,7 +496,6 @@
 		C893375E2C4F579D00F7AEA2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
