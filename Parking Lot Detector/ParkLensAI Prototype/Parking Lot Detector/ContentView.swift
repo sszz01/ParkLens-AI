@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Parking Lot Detector Prototype
+//  Parking Lot Detector AI Prototype
 //
 //  Created by Oleksandr Voievodin on 7/22/24.
 //
