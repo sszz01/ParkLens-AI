@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -30,21 +30,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C83F03872CC61EC40059BCE8 /* ParkLens-AI */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ParkLens-AI";
-			sourceTree = "<group>";
-		};
-		C83F03982CC61EC50059BCE8 /* ParkLens-AITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ParkLens-AITests";
-			sourceTree = "<group>";
-		};
-		C83F03A22CC61EC50059BCE8 /* ParkLens-AIUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "ParkLens-AIUITests";
-			sourceTree = "<group>";
-		};
+		C83F03872CC61EC40059BCE8 /* ParkLens-AI */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "ParkLens-AI"; sourceTree = "<group>"; };
+		C83F03982CC61EC50059BCE8 /* ParkLens-AITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "ParkLens-AITests"; sourceTree = "<group>"; };
+		C83F03A22CC61EC50059BCE8 /* ParkLens-AIUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "ParkLens-AIUITests"; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +175,7 @@
 				};
 			};
 			buildConfigurationList = C83F03802CC61EC40059BCE8 /* Build configuration list for PBXProject "ParkLens-AI" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,7 +184,6 @@
 			);
 			mainGroup = C83F037C2CC61EC40059BCE8;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = C83F03862CC61EC40059BCE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -403,6 +391,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -431,6 +420,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
