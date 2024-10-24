@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Parking Lot Detector AI Prototype
 //
-//  Created by Oleksandr Voievodin on 7/22/24.
+//  Created by Opinionated Goats on 7/22/24.
 //
 
 import SwiftUI
