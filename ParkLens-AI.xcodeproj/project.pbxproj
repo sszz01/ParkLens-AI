@@ -98,9 +98,9 @@
 			children = (
 				9C91125B2CCAAA28002FDF2A /* ParkLens_AIApp.swift */,
 				9C91125D2CCAAA28002FDF2A /* ContentView.swift */,
+				9C9112852CCAAA79002FDF2A /* MediaPicker.swift */,
 				9C91125F2CCAAA2A002FDF2A /* Assets.xcassets */,
 				9C9112612CCAAA2A002FDF2A /* Preview Content */,
-				9C9112852CCAAA79002FDF2A /* MediaPicker.swift */,
 			);
 			path = "ParkLens-AI";
 			sourceTree = "<group>";
