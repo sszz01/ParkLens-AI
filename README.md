@@ -15,8 +15,7 @@ ParkLens-AI is a mobile application that utilizes computer vision techniques to 
 ## Getting Started
 
 ### Prerequisites
-- Xcode(15.0 or higher)
-- An iOS device or simulator for testing
+- iOS(17.0 or higher)
 
 ### Installation
 
