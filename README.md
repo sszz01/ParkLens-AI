@@ -1,2 +1,23 @@
-# ParkAI-prototype
-An app that recognizes empty and taken parking spots by analyzing the given footage of a parking lot.
+# ParkLens-AI (Prototype)
+
+## Overview
+ParkLens-AI is a mobile application that utilizes computer vision techniques to recognize empty and occupied parking spots by analyzing video footage of a parking lot.
+
+## Features
+- **Parking Spot Detection**: Accurately identifies empty and taken parking spots in real-time.
+- **Video Analysis**: Processes footage from parking lots to provide instant feedback.
+
+## Technologies Used
+- **SwiftUI**: For building the iOS application.
+- **Core ML / Vision Framework**: For implementing the computer vision model.
+- **Xcode**: The development environment used for building the app.
+
+## Getting Started
+
+### Prerequisites
+- Xcode(15.0 or higher)
+- An iOS device or simulator for testing
+
+### Installation
+
+tbd...
