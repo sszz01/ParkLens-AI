@@ -14,7 +14,6 @@
 		9C91126D2CCAAA2A002FDF2A /* ParkLens_AITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C91126C2CCAAA2A002FDF2A /* ParkLens_AITests.swift */; };
 		9C9112772CCAAA2A002FDF2A /* ParkLens_AIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9112762CCAAA2A002FDF2A /* ParkLens_AIUITests.swift */; };
 		9C9112792CCAAA2A002FDF2A /* ParkLens_AIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9112782CCAAA2A002FDF2A /* ParkLens_AIUITestsLaunchTests.swift */; };
-		9C9112862CCAAA79002FDF2A /* MediaPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9112852CCAAA79002FDF2A /* MediaPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 		9C9112722CCAAA2A002FDF2A /* ParkLens-AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ParkLens-AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C9112762CCAAA2A002FDF2A /* ParkLens_AIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkLens_AIUITests.swift; sourceTree = "<group>"; };
 		9C9112782CCAAA2A002FDF2A /* ParkLens_AIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkLens_AIUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9C9112852CCAAA79002FDF2A /* MediaPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +96,6 @@
 			children = (
 				9C91125B2CCAAA28002FDF2A /* ParkLens_AIApp.swift */,
 				9C91125D2CCAAA28002FDF2A /* ContentView.swift */,
-				9C9112852CCAAA79002FDF2A /* MediaPicker.swift */,
 				9C91125F2CCAAA2A002FDF2A /* Assets.xcassets */,
 				9C9112612CCAAA2A002FDF2A /* Preview Content */,
 			);
@@ -261,7 +258,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C91125E2CCAAA28002FDF2A /* ContentView.swift in Sources */,
-				9C9112862CCAAA79002FDF2A /* MediaPicker.swift in Sources */,
 				9C91125C2CCAAA28002FDF2A /* ParkLens_AIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
