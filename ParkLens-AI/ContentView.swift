@@ -11,7 +11,18 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("Hello, World!")
+            Button {
+                print("Do some action")
+            } label: {
+                Text("Tap Me")
+            }
+            .font(.headline)
+            .foregroundColor(.white)
+            .padding()
+            .frame(maxWidth: 300)
+            .background(Color.teal)
+            .cornerRadius(10)
+            .shadow(color: .gray, radius: 5, x: 0, y: 5)
         }
     }
 }
