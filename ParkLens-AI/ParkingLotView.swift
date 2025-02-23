@@ -16,15 +16,15 @@ struct ParkingLotView: View {
     var streamURL: URL {
         switch lotNumber {
         case 1:
-            return URL(string: "http://192.168.4.171:8080/hls/stream.m3u8")!
+            return URL(string: "http://localhost:8080/hls/stream.m3u8")!
         case 2:
-            return URL(string: "http://192.168.1.8:8080/hls/stream2.m3u8")!
+            return URL(string: "http://192.168.1.8:8080/hls/stream2.m3u8")! // change later
         case 3:
-            return URL(string: "http://192.168.1.8:8080/hls/stream3.m3u8")!
+            return URL(string: "http://192.168.1.8:8080/hls/stream3.m3u8")! // change later
         case 4:
-            return URL(string: "http://192.168.1.8:8080/hls/stream4.m3u8")!
+            return URL(string: "http://192.168.1.8:8080/hls/stream4.m3u8")! // change later
         default:
-            return URL(string: "http://192.168.1.8:8080/hls/stream1.m3u8")!
+            return URL(string: "http://192.168.1.8:8080/hls/stream1.m3u8")! // change later
         }
     }
     
