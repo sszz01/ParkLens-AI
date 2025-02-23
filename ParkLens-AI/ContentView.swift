@@ -8,21 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
-    
     var body: some View {
-        VStack {
-            Button {
-                print("Do some action")
-            } label: {
-                Text("Tap Me")
+        NavigationStack {
+            VStack(spacing: 80) {
+                ForEach(1...4, id: \.self) { lot in
+                    NavigationLink(destination: ParkingLotView(lotNumber: lot)) {
+                        Text("Parking Lot \(lot)")
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .padding()
+                            .frame(maxWidth: 300)
+                            .background(.blue)
+                            .cornerRadius(10)
+                            .shadow(color: .gray, radius: 5, x: 0, y: 5)
+                    }
+                }
             }
-            .font(.headline)
-            .foregroundColor(.white)
             .padding()
-            .frame(maxWidth: 300)
-            .background(Color.teal)
-            .cornerRadius(10)
-            .shadow(color: .gray, radius: 5, x: 0, y: 5)
+            .navigationTitle("Select Parking Lot")
         }
     }
 }
