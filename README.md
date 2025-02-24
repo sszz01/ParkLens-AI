@@ -3,6 +3,11 @@
 ## Overview
 ParkLens is a mobile application that utilizes computer vision techniques to recognize vacant parking spots by analyzing video footage of a parking lot.
 
+**Note: This repository goes along with the computer vision model, the repository of which can be found [here](https://github.com/sszz01/parklens-cv-model)**
+
+**This guide is for the app development only. Please refer to other repo for Python environment setup guidelines.**
+
+
 ## Features
 - **Parking Spot Detection**: Accurately identifies empty and taken parking spots in real-time.
 - **Live Streaming**: Streams processed video data to the iOS application via HLS.
