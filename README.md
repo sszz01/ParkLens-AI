@@ -8,7 +8,8 @@ ParkLens is a mobile application that utilizes computer vision techniques to rec
 - **Live Streaming**: Streams processed video data to the iOS application via HLS.
 - **RTMP Support**: Uses an RTMP protocol to capture and analyze live video from a real security IP camera.
 - **Easy-to-use UI**: User-friendly UI that guides user to open parking spots seamlessly.
-<br>
+
+
 Note: If you are a contributor, I have made a Figma UI Prototype of the app that you can [view here](https://www.figma.com/design/FmZlqaQKi9CI1gL46kwe73/ParkLens-iOS-UI-Prototype?node-id=13-523)
 
 ## Architecture Overview
